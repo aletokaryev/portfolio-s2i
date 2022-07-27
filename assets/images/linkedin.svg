@@ -1,1 +1,17 @@
-<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><circle clip-rule="evenodd" cx="16" cy="16" fill="#007BB5" fill-rule="evenodd" r="16"/><g><rect fill="#FFFFFF" height="14" width="4" x="7" y="11"/><path d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z" fill="#FFFFFF"/><circle cx="9" cy="8" fill="#FFFFFF" r="2"/></g></g><g/><g/><g/><g/><g/><g/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="39" viewBox="0 0 40 39">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_1395" data-name="Rettangolo 1395" width="40" height="39" transform="translate(-0.313 -0.385)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppo_di_maschere_2" data-name="Gruppo di maschere 2" transform="translate(0.313 0.385)" clip-path="url(#clip-path)">
+    <g id="_317750_linkedin_icon" data-name="317750_linkedin_icon" transform="translate(0)">
+      <ellipse id="Ellisse_1" data-name="Ellisse 1" cx="20" cy="19.5" rx="20" ry="19.5" transform="translate(-0.313 -0.385)" fill="#fff"/>
+      <g id="Raggruppa_9" data-name="Raggruppa 9" transform="translate(8.723 7.114)">
+        <rect id="Rettangolo_1398" data-name="Rettangolo 1398" width="4.873" height="17.055" transform="translate(0 6.091)"/>
+        <path id="Tracciato_27" data-name="Tracciato 27" d="M37.573,24.063c-3.4,0-3.985,1.24-4.262,2.436V24.063H28.438V41.117H33.31V31.372a2.19,2.19,0,0,1,2.436-2.436,2.2,2.2,0,0,1,2.436,2.436v9.746h4.873V32.59C43.056,27.717,42.421,24.063,37.573,24.063Z" transform="translate(-21.128 -17.972)"/>
+        <circle id="Ellisse_2" data-name="Ellisse 2" cx="2.436" cy="2.436" r="2.436"/>
+      </g>
+    </g>
+  </g>
+</svg>
