@@ -28,7 +28,7 @@ header{
     }
 }
 
-section{
+.Home{
     color: white;
     padding-top: 250px;
     display: flex;
@@ -59,4 +59,147 @@ section{
         }
         padding-left: 250px;
     }
+}
+
+.line{
+    margin-left: 200px;
+    padding-top: 225px;
+    width: 350px;
+    height: 47px;
+    border-bottom: 1px solid white;
+    position: absolute;
+    }
+
+.photoContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 100px;
+    padding-right: 250px;
+    h1{
+        font-family: poppins, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 70px;
+        color: white;
+        padding-top: 150px;
+        padding-right: 250px;
+    }
+    .photo{
+        background-color: white;
+        color: black;
+        width: 350px;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: poppins, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 70px;
+    }
+}
+
+.about{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p{
+        font-family: poppins, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px; 
+        color: white;
+        text-align: center;
+    }
+    .skills{
+        margin-top: 200px;
+        margin-left: 200px;
+        p{
+            text-align: start;
+        }
+        .skills-cont{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            img{
+                width: 84px;
+                height: 96px;
+            }
+        }
+    }
+    
+}
+
+
+.Projects{
+    margin-top: 200px;
+    h1{
+        color: white;
+        text-align: center;
+        font-family: poppins, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 70px;
+        margin-bottom: 200px;
+    }
+    h2{
+        
+        color: white;
+        text-align: center;
+        font-family: poppins, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+}
+
+.Contact{
+    margin-top: 200px;
+    h1{
+        color: white;
+        text-align: center;
+        font-family: poppins, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 70px;
+        margin-bottom: 200px;
+    }
+    .form{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            text-align: center;
+            color: white;
+            font-family: poppins, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+        }
+        .button{
+            margin-top: 50px;
+            width: 500px;
+            height: 80px;
+            background-color: white;
+            border: none;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-family: poppins, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 40px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+    }
+}
+
+footer{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
 }
