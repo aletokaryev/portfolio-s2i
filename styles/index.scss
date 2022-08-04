@@ -1,0 +1,65 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1c1c1c;
+    color: white;
+}
+
+header{
+    height: 80px;
+    font-family: "Poppins";
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li{
+        list-style: none;
+        display: inline;
+        margin-right: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover{
+        color: pink;    //da modificare
+    }
+
+    .logo-img{
+        width: 80px;
+        margin-left: 100px;
+    }
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    #name{
+        font-family: "Electrolize";
+        font-weight:normal;
+        font-size: 18px;
+    }
+    p{
+        font-family: "Poppins";
+        font-size: 18px;
+    }
+    span{
+        color:#DF00FF;
+        font-weight: 600;
+        font-family: "Poppins";
+        font-size: 18px;
+    }
+    h1{
+        font-family: "Poppins";
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,172 @@
+@charset "UTF-8";
+body {
+  background-color: #1c1c1c;
+  color: white;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+header {
+  /*animation: navbarPop 2s forwards;*/
+  background-color: black;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: black;
+  height: 100vh;
+  width: 80%;
+  z-index: 101;
+  text-transform: uppercase;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in-out;
+}
+header ul {
+  margin-top: 50px;
+  list-style-type: none;
+}
+header ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  display: block;
+  width: 100%;
+}
+header ul a:hover {
+  background-color: rgb(112, 112, 112);
+}
+header .close {
+  float: right;
+  margin: 1em;
+  width: 1.5em;
+}
+header svg {
+  width: 2em;
+  margin-top: -0.5em;
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+header .logo-img {
+  margin: 15px;
+  width: 100px;
+}
+
+.mainContainer, .workContainer, .aboutContainer {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.hero {
+  width: 70%;
+  font-family: "Poppins";
+  color: white;
+}
+section.hero #name {
+  font-family: "Electrolize";
+  font-size: 18px;
+  color: #DF00FF;
+}
+section.hero h1 {
+  font-size: 25px;
+}
+section.hero span {
+  font-size: 16px;
+  color: #DF00FF;
+  font-weight: bold;
+}
+section.hero p {
+  font-size: 18px;
+}
+
+section.works {
+  width: 70%;
+  font-family: "Poppins";
+  color: white;
+}
+section.works span {
+  color: #DF00FF;
+}
+
+section.about {
+  width: 70%;
+  font-family: "Poppins";
+  color: white;
+}
+section.about .skills {
+  margin-top: 100px;
+  margin-left: 20vh;
+}
+section.about .icon {
+  width: 30px;
+  margin: 5px;
+}
+section.about .cpp {
+  width: 35px;
+}
+
+.open-nav {
+  transform: translateX(0);
+}
+
+footer {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  flex: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p {
+  margin-top: -10px;
+}
+footer .socials {
+  display: flex;
+}
+footer .social-icon {
+  margin: 0px 10px;
+  padding: 0;
+  width: 25px;
+}
+footer .cp {
+  margin-top: 25px;
+  font-size: 10px;
+}
+
+/* Volevo mettere delle animazioni...ma non so perchè poi andava tutto storto...
+@keyframes navbarPop{
+    0%{
+        clip-path: polygon(50% 0%, 100% 0, 100% 0, 0 0, 0 0);
+
+    }
+    50%{
+        clip-path: polygon(50% 100%, 100% 0, 100% 0, 0 0, 0 0);
+
+    }
+    100%{
+        clip-path: polygon(50% 100%, 100% 100%, 100% 0, 0 0, 0 100%);
+
+    }
+}
+
+@keyframes moveDown{
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+*//*# sourceMappingURL=index2.css.map */

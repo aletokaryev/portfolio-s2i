@@ -1,0 +1,117 @@
+@media only screen and (min-width: 961px){
+    .menu{
+        display: none;
+    }
+    .navbar{
+        transform: translateX(0);
+        position: unset;
+        display: block;
+        width: auto;
+        height: auto;
+        background-color: none;
+        z-index: 100;
+        ul{
+            margin-top: 10px;
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                
+                color: white;
+                font-size: .9rem;
+            }
+            a:hover{
+                background-color: transparent;
+                text-decoration: underline;
+            }
+        }
+    }
+    .logo-img{
+        margin: 10px;
+        width: 20px;
+    }
+    svg.close{
+        display: none;
+    }
+
+    section.hero{
+        h1{
+            font-size: 35px;
+        }
+        span{
+            font-size: 20px;
+            color: #DF00FF;
+            font-weight: bold;
+        }
+        p{
+            font-size: 22px;
+        }
+    }
+
+    section.works{
+        h2{
+            font-size: 30px;
+            position: relative;
+            z-index: 2;
+        }
+        h2:after {
+            content: "";
+            display: block;
+            width: 60%;
+            height: 2px;
+            background: rgb(255, 255, 255);
+            right: -15%;
+            top: 50%;
+            position: absolute;
+          }
+
+        p{
+            font-size: 22px;
+        }    
+    }
+
+    section.about{
+        h2{
+            font-size: 30px;
+            position: relative;
+        }
+        h2:after {
+            content: "";
+            display: block;
+            width: 80%;
+            height: 2px;
+            background: rgb(255, 255, 255);
+            right: -15%;
+            top: 50%;
+            position: absolute;
+          }
+        p{
+            font-size: 22px;
+        }    
+        .skills{
+            h3{
+                position: relative;
+                font-size: 20px;
+            }
+            h3:after {
+                content: "";
+                display: block;
+                width: 50%;
+                height: 2px;
+                background: rgb(255, 255, 255);
+                right: -22%;
+                top: 50%;
+                position: absolute;
+              }
+            margin-left: 20vh;
+        }
+        .icon{
+            width: 40px;
+            margin: 10px;
+        }
+        .cpp{
+            width: 35px;
+        }
+    }
+}
